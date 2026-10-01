@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBMC Robotics Club Application Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fbdc7f;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #10315c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: white;
+        }
+
+        header h1 {
+            margin: 10px 0 5px 0;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background-color: white;
+            border: 1px solid #cccccc;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #10315c;
+        }
+
+        a {
+            color: #10315c;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #999999;
+            border-radius: 4px;
+            font-family: inherit;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin-top: 15px;
+            margin-right: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        button[type="submit"] {
+            background-color: #10315c;
+            color: white;
+        }
+
+        button[type="reset"] {
+            background-color: #dddddd;
+            color: black;
+        }
+
+        footer {
+            background-color: #10315c;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://files.orangeapps.ph/disk001/School_Files/1/school-65/school_profile/1784985566-2021.png" alt="OBMC Logo">
+        <h1>OBMC Robotics Club Application Form</h1>
+        <p>Build. Program. Compete. Join the movement.</p>
+    </header>
+
+    <main>
+
+        <section id="intro">
+            <h2>Welcome, Future Roboticist!</h2>
+            <p>
+                The OBMC Robotics Club is a community of students who love building, programming, and competing with robots. Whether you're a total beginner or already know your way around a microcontroller, this club is your space to learn hands-on skills, work in teams, and represent our school in robotics competitions. Fill out the application form below to become part of our next batch of members. We can't wait to build the future with you!
+            </p>
+        </section>
+
+        <section id="learn-more">
+            <h2>Learn More Before You Apply</h2>
+            <p>
+                New to robotics? Check out this beginner-friendly video on
+                <a href="https://www.youtube.com/watch?v=EAyzRmAKueE&t=40s" target="_blank">
+                    Introduction to Robotics for Beginners</a>
+                to get a feel for what the club is all about.
+            </p>
+        </section>
+
+        <section id="club-info">
+            <h2>Club Information</h2>
+
+            <h3>Steps to Join</h3>
+            <ol>
+                <li>Read the club overview and requirements.</li>
+                <li>Fill out the application form below.</li>
+                <li>Wait for confirmation from the club moderator.</li>
+                <li>Attend the orientation meeting.</li>
+            </ol>
+
+            <h3>What You'll Need</h3>
+            <ul>
+                <li>Enthusiasm to learn something new</li>
+                <li>A notebook for documenting builds and code</li>
+                <li>Willingness to work in a team</li>
+            </ul>
+
+            <h3>Key Terms</h3>
+            <dl>
+                <dt>Microcontroller</dt>
+                <dd>A small computer (like an Arduino) used to control robot behavior.</dd>
+
+                <dt>Sensor</dt>
+                <dd>A component that lets a robot detect things like light, distance, or touch.</dd>
+
+                <dt>Actuator</dt>
+                <dd>A part (like a motor) that allows a robot to move or perform actions.</dd>
+            </dl>
+        </section>
+
+        <section id="application-form">
+            <h2>Application Form</h2>
+            <img src="https://png.pngtree.com/png-clipart/20241125/original/pngtree-robot-photo-png-image_17308416.png" alt="Robot mascot" width="120">
+
+            <form action="#" method="post">
+
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Juan Dela Cruz" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="juandelacruz@example.com" required>
+
+                <label for="section">Section:</label>
+                <input type="text" id="section" name="section" placeholder="e.g., Emerald, Jade, Ruby, Sapphire">
+
+                <label>Year Level:</label>
+                <input type="radio" id="grade7" name="yearlevel" value="Grade 7">
+                <label for="grade7" style="display:inline; font-weight:normal;">Grade 7</label><br>
+
+                <input type="radio" id="grade8" name="yearlevel" value="Grade 8">
+                <label for="grade8" style="display:inline; font-weight:normal;">Grade 8</label><br>
+
+                <input type="radio" id="grade9" name="yearlevel" value="Grade 9">
+                <label for="grade9" style="display:inline; font-weight:normal;">Grade 9</label><br>
+
+                <input type="radio" id="grade10" name="yearlevel" value="Grade 10">
+                <label for="grade10" style="display:inline; font-weight:normal;">Grade 10</label>
+
+                <label>Areas of Interest (check all that apply):</label>
+                <input type="checkbox" id="mechanical" name="interest" value="Mechanical Design">
+                <label for="mechanical" style="display:inline; font-weight:normal;">Mechanical Design</label><br>
+
+                <input type="checkbox" id="programming" name="interest" value="Programming">
+                <label for="programming" style="display:inline; font-weight:normal;">Programming</label><br>
+
+                <input type="checkbox" id="electronics" name="interest" value="Electronics">
+                <label for="electronics" style="display:inline; font-weight:normal;">Electronics</label><br>
+
+                <input type="checkbox" id="competitions" name="interest" value="Competitions">
+                <label for="competitions" style="display:inline; font-weight:normal;">Competitions</label>
+
+                <label for="experience">Experience Level:</label>
+                <select id="experience" name="experience">
+                    <option value="">-- Select an option --</option>
+                    <option value="beginner">Beginner (no experience)</option>
+                    <option value="basic">Basic (some exposure)</option>
+                    <option value="intermediate">Intermediate (built projects before)</option>
+                    <option value="advanced">Advanced (competition experience)</option>
+                </select>
+
+                <label for="reason">Why do you want to join the Robotics Club?</label>
+                <textarea id="reason" name="reason" rows="5" placeholder="Share your motivation, goals, or relevant experience."></textarea>
+
+                <button type="submit">Submit Application</button>
+                <button type="reset">Clear Form</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 OBMC Robotics Club. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
